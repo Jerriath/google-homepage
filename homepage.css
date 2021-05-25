@@ -1,0 +1,17 @@
+#logo-block {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    border: 1px solid black;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+body {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #222;
+}
