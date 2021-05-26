@@ -56,6 +56,32 @@
     width: 20px;
     margin-top: 3px;
 }
+#mic-img {
+    display: flex;
+    flex: 0 0 auto;
+    margin-top: -5px;
+    align-items: stretch;
+    flex-direction: row;
+}
+#mic-div {
+    flex: 1 0 auto;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    border: 0;
+    background: transparent;
+    outline: none;
+    padding: 0 8px;
+    width: 24px;
+    line-height: 44px;
+}
+#microphone {
+    background: url('//web.archive.org/web/20191130234759im_/https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png') 0 0 no-repeat;
+    height: 24px;
+    width: 24px;
+    background-size: 24px;
+    vertical-align: middle;
+}
 #input-container {
     display: flex;
     flex: 1;
@@ -164,6 +190,7 @@
     margin-left: 0 !important;
     margin-right: 0 !important;
     min-width: 165px;
+    width: 240px;
     padding-left: 30px;
     padding-right: 30px;
     display: flex;
@@ -176,6 +203,19 @@
     z-index: 987;
     align-items: center;
     justify-content: space-around;
+}
+#text-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+#other-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 #about {
     color: black;
@@ -208,6 +248,44 @@
 }
 #images:hover {
     text-decoration: underline;
+}
+#apps {
+    white-space: nowrap;
+    line-height: normal;
+    text-align: left;
+    display: inline-block;
+    outline: none;
+    vertical-align: middle;
+    border-radius: 2px;
+    box-sizing: border-box;
+    height:30px;
+    width: 30px;
+    background-image: url('//web.archive.org/web/20191130234759im_/https://ssl.gstatic.com/gb/images/i1_1967ca6a.png');
+    background-size: 528px 68px;
+    background-position: -132px -38px;
+    opacity: .55;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    padding-right: 50px;
+}
+#apps:hover {
+    opacity: .8;
+}
+#sign-in {
+    font-size: 13px;
+    white-space: nowrap;
+    text-align: left;
+    display: inline-block;
+    line-height: 28px;
+    padding: 0 12px;
+    border-radius: 2px;
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    background: -webkit-linear-gradient(top, #4387fd, #4683ea);
+    cursor: default;
+    text-decoration: none;
+    color: #fff;
 }
 /* -----This line ends the navbar styling----- */
 
