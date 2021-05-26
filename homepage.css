@@ -2,7 +2,7 @@
 #logo-block {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 47px;
+    margin-top: 79px;
     height: 233px;
 }
 #logo {
@@ -14,7 +14,7 @@
     z-index: 103;
     position: absolute;
     top: 269px;
-    margin-top: 0;
+    margin-top: 50px;
 }
 #form-id {
     background: none;
@@ -221,6 +221,7 @@
     color: black;
     opacity: .9;
     text-decoration: none;
+    padding-left: 11px;
 }
 #about:hover {
     text-decoration: underline;
@@ -229,6 +230,7 @@
     color: black;
     opacity: .9;
     text-decoration: none;
+    padding-left: 14px;
 }
 #store:hover {
     text-decoration: underline;
@@ -291,6 +293,74 @@
 
 
 
+/*-----This area styles the footer-----*/
+#footer {
+    margin: 0 auto;
+    min-width: 1139px;
+    bottom: 0;
+    font-size: 14px;
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    white-space: nowrap;
+}
+#advertising {
+    text-decoration: none;
+    color: #5f6368;
+    display: inline-block;
+    margin-left: 30px;
+}
+#advertising:hover {
+    text-decoration: underline;
+}
+#business {
+    text-decoration: none;
+    color: #5f6368;
+    display: inline-block;
+    padding-left: 23px;
+}
+#business:hover {
+    text-decoration: underline;
+}
+#how-search-works {
+    text-decoration: none;
+    color: #5f6368;
+    display: inline-block;
+    padding-left: 23px;
+}
+#how-search-works:hover {
+    text-decoration: underline;
+}
+#settings {
+    text-decoration: none;
+    color: #5f6368;
+    display: inline-block;
+    padding-left: 23px;
+}
+#settings:hover {
+    text-decoration: underline;
+}
+#terms {
+    text-decoration: none;
+    color: #5f6368;
+    display: inline-block;
+    padding-left: 23px;
+}
+#terms:hover {
+    text-decoration: underline;
+}
+#privacy {
+    text-decoration: none;
+    color: #5f6368;
+    display: inline-block;
+    margin-left: 1371px;
+}
+#privacy:hover {
+    text-decoration: underline;
+}
+/*-----This line ends the footer styling-----*/
+
+
 /* -----This area contains classes----- */
 .center {
     display: block;
@@ -301,6 +371,13 @@
     flex: 1;
     display: flex;
     padding: 5px 8px 0 14px;
+}
+.footer-bg {
+    left: 0;
+    right: 0;
+    background: #f2f2f2;
+    line-height: 40px;
+    border-top: 1px solid #e4e4e4;
 }
 /* -----This line ends the class styling----- */
 
